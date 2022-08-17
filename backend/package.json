@@ -1,0 +1,30 @@
+{
+  "name": "@ignite-lab-02-monorepo/backend",
+  "private": true,
+  "version": "1.0.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@strapi/strapi": "4.3.4",
+    "@strapi/plugin-users-permissions": "4.3.4",
+    "@strapi/plugin-i18n": "4.3.4",
+    "pg": "8.6.0"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "a55b612e-1c60-4a25-9a47-765eb60ee4c4"
+  },
+  "engines": {
+    "node": ">=12.x.x <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

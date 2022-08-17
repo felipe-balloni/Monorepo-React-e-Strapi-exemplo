@@ -1,7 +1,29 @@
 {
-  "name": "ignite-lab-02-monorepo",
-  "version": "1.0.0",
-  "license": "MIT",
-  "private": true,
-  "workspaces": ["backend", "frontend"]
+    "name": "ignite-lab-02-monorepo",
+    "version": "1.0.0",
+    "license": "MIT",
+    "private": true,
+    "workspaces": [
+        "backend",
+        "frontend",
+        "eslint-config"
+    ],
+    "scripts": {
+        "develop:backend": "yarn --cwd backend develop",
+        "develop:frontend": "wait-on http://localhost:1337/admin && yarn --cwd frontend dev -p 3000",
+        "develop": "cross-env FORCE_COLOR=1 npm-run-all -l -p develop:*",
+        "test": "jest",
+        "test:watch": "jest --watchAll",
+        "test:coverage": "jest --collect-coverage"
+    },
+    "devDependencies": {
+        "@ignite-lab-02-monorepo/eslint-config": "*",
+        "@types/jest": "^28.1.7",
+        "cross-env": "^7.0.3",
+        "jest": "^28.1.3",
+        "npm-run-all": "^4.1.5",
+        "ts-jest": "^28.0.8",
+        "typescript": "^4.7.4",
+        "wait-on": "^6.0.1"
+    }
 }
