@@ -1,5 +1,5 @@
 {
-    "name": "@ignite-lab-02-monorepo/eslint-config",
+    "name": "@monorepo/eslint-config",
     "version": "1.0.0",
     "private": true,
     "main": ".eslintrc.js",

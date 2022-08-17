@@ -1,5 +1,5 @@
 {
-  "name": "@ignite-lab-02-monorepo/backend",
+  "name": "@monorepo/backend",
   "private": true,
   "version": "1.0.0",
   "description": "A Strapi application",

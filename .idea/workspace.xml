@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9df02c0-98d1-40ff-985f-3314863bd7d7" name="Changes" comment="Monorepo ended">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.esllintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.esllintrc.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eslint-config/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/eslint-config/.eslintrc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eslint-config/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/eslint-config/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -101,7 +101,7 @@
       <option name="presentableId" value="Default" />
       <updated>1660668855183</updated>
       <workItem from="1660668856592" duration="3044000" />
-      <workItem from="1660739017717" duration="15821000" />
+      <workItem from="1660739017717" duration="16058000" />
     </task>
     <task id="LOCAL-00001" summary="Monorepo ended">
       <created>1660762609661</created>
@@ -110,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660762609661</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Monorepo ended">
+      <created>1660768015290</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1660768015290</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

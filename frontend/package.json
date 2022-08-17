@@ -1,5 +1,5 @@
 {
-    "name": "@ignite-lab-02-monorepo/frontend",
+    "name": "@monorepo/frontend",
     "private": true,
     "version": "1.0.0",
     "type": "module",
