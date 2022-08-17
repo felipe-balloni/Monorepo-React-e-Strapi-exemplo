@@ -22,7 +22,13 @@ module.exports = {
         ecmaVersion: 11,
         sourceType: 'module'
     },
-    plugins: ['react', '@typescript-eslint', 'prettier'],
+    plugins: [
+        'react',
+        '@typescript-eslint',
+        'prettier',
+        'react-hooks',
+        'next/core-web-vitals'
+    ],
     rules: {
         'prettier/prettier': 'error'
     },
@@ -31,7 +37,7 @@ module.exports = {
             typescript: {}
         },
         react: {
-            version: 'detect',
-        },
+            version: 'detect'
+        }
     }
-}
+};
