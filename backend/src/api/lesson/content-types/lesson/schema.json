@@ -21,7 +21,7 @@
       "type": "uid",
       "targetField": "title",
       "required": true,
-      "minLength": 255
+      "maxLength": 255
     },
     "description": {
       "type": "richtext"

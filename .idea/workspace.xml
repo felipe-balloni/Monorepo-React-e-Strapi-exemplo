@@ -4,33 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9df02c0-98d1-40ff-985f-3314863bd7d7" name="Changes" comment="Monorepo ended">
-      <change afterPath="$PROJECT_DIR$/backend/config/plugins.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/api/challenge/content-types/challenge/schema.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/api/challenge/controllers/challenge.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/api/challenge/routes/challenge.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/api/challenge/services/challenge.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/api/lesson/content-types/lesson/schema.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/api/lesson/controllers/lesson.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/api/lesson/routes/lesson.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/api/lesson/services/lesson.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/api/subscriber/content-types/subscriber/schema.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/api/subscriber/controllers/subscriber.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/api/subscriber/routes/subscriber.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/api/subscriber/services/subscriber.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/api/teacher/content-types/teacher/schema.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/api/teacher/controllers/teacher.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/api/teacher/routes/teacher.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/api/teacher/services/teacher.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/components/video/video-from-library.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/components/video/video-from-vimeo.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/components/video/video-from-you-tube.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+    <list default="true" id="f9df02c0-98d1-40ff-985f-3314863bd7d7" name="Changes" comment="GraphQL and Strapi content types">
+      <change beforePath="$PROJECT_DIR$/.esllintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.esllintrc.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/vite.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/vite-env.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/config/plugins.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/config/plugins.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/api/lesson/content-types/lesson/schema.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/api/lesson/content-types/lesson/schema.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eslint-config/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/eslint-config/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,27 +50,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;code.cleanup.on.save&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/felipeferreira/React/Rocketseat/ignite-lab-02/node_modules/prettier&quot;,
-    &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.prettier&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/felipeferreira/React/Rocketseat/ignite-lab-02/node_modules/typescript/lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "code.cleanup.on.save": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "yarn",
+    "prettierjs.PrettierConfiguration.Package": "/Users/felipeferreira/React/Rocketseat/ignite-lab-02/node_modules/prettier",
+    "rearrange.code.on.save": "true",
+    "settings.editor.selected.configurable": "terminal",
+    "ts.external.directory.path": "/Users/felipeferreira/React/Rocketseat/ignite-lab-02/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
@@ -125,7 +107,7 @@
       <workItem from="1660668856592" duration="3044000" />
       <workItem from="1660739017717" duration="16824000" />
       <workItem from="1660824997305" duration="1660000" />
-      <workItem from="1660830549785" duration="895000" />
+      <workItem from="1660830549785" duration="4353000" />
     </task>
     <task id="LOCAL-00001" summary="Monorepo ended">
       <created>1660762609661</created>
@@ -148,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660768287405</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="GraphQL and Strapi content types">
+      <created>1660838629367</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1660838629367</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,7 +161,8 @@
       <path value="$PROJECT_DIR$/frontend" />
     </ignored-roots>
     <MESSAGE value="Monorepo ended" />
-    <option name="LAST_COMMIT_MESSAGE" value="Monorepo ended" />
+    <MESSAGE value="GraphQL and Strapi content types" />
+    <option name="LAST_COMMIT_MESSAGE" value="GraphQL and Strapi content types" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

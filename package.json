@@ -17,7 +17,7 @@
         "test:coverage": "jest --collect-coverage"
     },
     "devDependencies": {
-        "@ignite-lab-02-monorepo/eslint-config": "*",
+        "@monorepo/eslint-config": "*",
         "@types/jest": "^28.1.7",
         "cross-env": "^7.0.3",
         "jest": "^28.1.3",

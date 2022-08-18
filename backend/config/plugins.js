@@ -3,7 +3,7 @@ module.exports = ({ env }) => ({
     enabled: true,
     shadowCRUD: false,
     config: {
-      playgroundAlways: false,
+      cd: false,
       defaultLimit: 50
     }
   }
