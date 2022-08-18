@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_video_video_from_you_tubes",
+  "info": {
+    "displayName": "Video from YouTube",
+    "icon": "video"
+  },
+  "options": {},
+  "attributes": {
+    "videoID": {
+      "type": "string",
+      "required": true,
+      "maxLength": 255
+    }
+  }
+}

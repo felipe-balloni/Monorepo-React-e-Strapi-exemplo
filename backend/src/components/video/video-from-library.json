@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_video_video_from_libraries",
+  "info": {
+    "displayName": "Video from Library",
+    "icon": "file-video"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "maxLength": 255
+    },
+    "media": {
+      "allowedTypes": [
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

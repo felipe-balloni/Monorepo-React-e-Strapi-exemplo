@@ -1,0 +1,64 @@
+{
+  "kind": "collectionType",
+  "collectionName": "lessons",
+  "info": {
+    "singularName": "lesson",
+    "pluralName": "lessons",
+    "displayName": "Lesson",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "maxLength": 255
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title",
+      "required": true,
+      "minLength": 255
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "availabeAt": {
+      "type": "datetime"
+    },
+    "challenge": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::challenge.challenge"
+    },
+    "teacher": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::teacher.teacher",
+      "inversedBy": "lessons"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "Live",
+        "Hands-on"
+      ],
+      "required": true,
+      "default": "Hands-on"
+    },
+    "Video": {
+      "type": "dynamiczone",
+      "components": [
+        "video.video-from-you-tube",
+        "video.video-from-library",
+        "video.video-from-vimeo"
+      ],
+      "required": true,
+      "min": 1,
+      "max": 1
+    }
+  }
+}

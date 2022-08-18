@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_video_video_from_vimeos",
+  "info": {
+    "displayName": "Video from Vimeo",
+    "icon": "video"
+  },
+  "options": {},
+  "attributes": {
+    "videoID": {
+      "type": "string",
+      "required": true,
+      "maxLength": 255
+    }
+  }
+}
